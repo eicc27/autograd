@@ -1,0 +1,18 @@
+{
+  "name": "autograd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node --max-old-space-size=16384 build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "nodejs": "^0.0.0",
+    "reflect-metadata": "^0.2.1",
+    "typescript": "^5.3.3"
+  }
+}
